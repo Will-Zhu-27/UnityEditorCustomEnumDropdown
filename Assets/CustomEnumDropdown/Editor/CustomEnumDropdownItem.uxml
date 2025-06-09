@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="Item" class="unity-base-dropdown__item" style="flex-grow: 1; flex-direction: row; align-items: center; padding-right: 0; padding-left: 0;">
+        <ui:VisualElement name="CheckMark" picking-mode="Ignore" class="unity-base-dropdown__checkmark" style="flex-grow: 0; flex-shrink: 0;" />
+        <ui:Label text="EnumName" name="EnumName" enable-rich-text="false" emoji-fallback-support="false" picking-mode="Ignore" class="unity-base-dropdown__label" style="flex-grow: 1;" />
+        <ui:Label text="111" name="EnumValue" enable-rich-text="false" emoji-fallback-support="false" picking-mode="Ignore" class="unity-base-dropdown__label" style="-unity-text-align: middle-right; flex-grow: 1; padding-right: 0;" />
+    </ui:VisualElement>
+</ui:UXML>
